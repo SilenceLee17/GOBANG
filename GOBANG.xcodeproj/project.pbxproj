@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F373E3521E680AE6002BFDCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E3511E680AE6002BFDCA /* main.m */; };
+		F373E3551E680AE6002BFDCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E3541E680AE6002BFDCA /* AppDelegate.m */; };
+		F373E35D1E680AE6002BFDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F373E35C1E680AE6002BFDCA /* Assets.xcassets */; };
+		F373E36B1E680AE6002BFDCA /* GOBANGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E36A1E680AE6002BFDCA /* GOBANGTests.m */; };
+		F373E3761E680AE6002BFDCA /* GOBANGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E3751E680AE6002BFDCA /* GOBANGUITests.m */; };
+		F373E3851E680CC1002BFDCA /* LXDBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E3841E680CC1002BFDCA /* LXDBoardViewController.m */; };
+		F373E3881E680D65002BFDCA /* LXDBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E3871E680D65002BFDCA /* LXDBoardView.m */; };
+		F373E38B1E680DFC002BFDCA /* LXDBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E38A1E680DFC002BFDCA /* LXDBoard.m */; };
+		F373E38E1E680E18002BFDCA /* LXDChess.m in Sources */ = {isa = PBXBuildFile; fileRef = F373E38D1E680E18002BFDCA /* LXDChess.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F373E3671E680AE6002BFDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F373E3451E680AE6002BFDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F373E34C1E680AE6002BFDCA;
+			remoteInfo = GOBANG;
+		};
+		F373E3721E680AE6002BFDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F373E3451E680AE6002BFDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F373E34C1E680AE6002BFDCA;
+			remoteInfo = GOBANG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F373E34D1E680AE6002BFDCA /* GOBANG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOBANG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F373E3511E680AE6002BFDCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F373E3531E680AE6002BFDCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F373E3541E680AE6002BFDCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F373E35C1E680AE6002BFDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F373E3611E680AE6002BFDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F373E3661E680AE6002BFDCA /* GOBANGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOBANGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F373E36A1E680AE6002BFDCA /* GOBANGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOBANGTests.m; sourceTree = "<group>"; };
+		F373E36C1E680AE6002BFDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F373E3711E680AE6002BFDCA /* GOBANGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOBANGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F373E3751E680AE6002BFDCA /* GOBANGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOBANGUITests.m; sourceTree = "<group>"; };
+		F373E3771E680AE6002BFDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F373E3831E680CC1002BFDCA /* LXDBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDBoardViewController.h; sourceTree = "<group>"; };
+		F373E3841E680CC1002BFDCA /* LXDBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDBoardViewController.m; sourceTree = "<group>"; };
+		F373E3861E680D65002BFDCA /* LXDBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDBoardView.h; sourceTree = "<group>"; };
+		F373E3871E680D65002BFDCA /* LXDBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDBoardView.m; sourceTree = "<group>"; };
+		F373E3891E680DFC002BFDCA /* LXDBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDBoard.h; sourceTree = "<group>"; };
+		F373E38A1E680DFC002BFDCA /* LXDBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDBoard.m; sourceTree = "<group>"; };
+		F373E38C1E680E18002BFDCA /* LXDChess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDChess.h; sourceTree = "<group>"; };
+		F373E38D1E680E18002BFDCA /* LXDChess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDChess.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F373E34A1E680AE6002BFDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373E3631E680AE6002BFDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373E36E1E680AE6002BFDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F373E3441E680AE6002BFDCA = {
+			isa = PBXGroup;
+			children = (
+				F373E34F1E680AE6002BFDCA /* GOBANG */,
+				F373E3691E680AE6002BFDCA /* GOBANGTests */,
+				F373E3741E680AE6002BFDCA /* GOBANGUITests */,
+				F373E34E1E680AE6002BFDCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F373E34E1E680AE6002BFDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F373E34D1E680AE6002BFDCA /* GOBANG.app */,
+				F373E3661E680AE6002BFDCA /* GOBANGTests.xctest */,
+				F373E3711E680AE6002BFDCA /* GOBANGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F373E34F1E680AE6002BFDCA /* GOBANG */ = {
+			isa = PBXGroup;
+			children = (
+				F373E3861E680D65002BFDCA /* LXDBoardView.h */,
+				F373E3871E680D65002BFDCA /* LXDBoardView.m */,
+				F373E3531E680AE6002BFDCA /* AppDelegate.h */,
+				F373E3541E680AE6002BFDCA /* AppDelegate.m */,
+				F373E35C1E680AE6002BFDCA /* Assets.xcassets */,
+				F373E3611E680AE6002BFDCA /* Info.plist */,
+				F373E3501E680AE6002BFDCA /* Supporting Files */,
+				F373E3831E680CC1002BFDCA /* LXDBoardViewController.h */,
+				F373E3841E680CC1002BFDCA /* LXDBoardViewController.m */,
+				F373E3891E680DFC002BFDCA /* LXDBoard.h */,
+				F373E38A1E680DFC002BFDCA /* LXDBoard.m */,
+				F373E38C1E680E18002BFDCA /* LXDChess.h */,
+				F373E38D1E680E18002BFDCA /* LXDChess.m */,
+			);
+			path = GOBANG;
+			sourceTree = "<group>";
+		};
+		F373E3501E680AE6002BFDCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F373E3511E680AE6002BFDCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F373E3691E680AE6002BFDCA /* GOBANGTests */ = {
+			isa = PBXGroup;
+			children = (
+				F373E36A1E680AE6002BFDCA /* GOBANGTests.m */,
+				F373E36C1E680AE6002BFDCA /* Info.plist */,
+			);
+			path = GOBANGTests;
+			sourceTree = "<group>";
+		};
+		F373E3741E680AE6002BFDCA /* GOBANGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F373E3751E680AE6002BFDCA /* GOBANGUITests.m */,
+				F373E3771E680AE6002BFDCA /* Info.plist */,
+			);
+			path = GOBANGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F373E34C1E680AE6002BFDCA /* GOBANG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F373E37A1E680AE6002BFDCA /* Build configuration list for PBXNativeTarget "GOBANG" */;
+			buildPhases = (
+				F373E3491E680AE6002BFDCA /* Sources */,
+				F373E34A1E680AE6002BFDCA /* Frameworks */,
+				F373E34B1E680AE6002BFDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOBANG;
+			productName = GOBANG;
+			productReference = F373E34D1E680AE6002BFDCA /* GOBANG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F373E3651E680AE6002BFDCA /* GOBANGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F373E37D1E680AE6002BFDCA /* Build configuration list for PBXNativeTarget "GOBANGTests" */;
+			buildPhases = (
+				F373E3621E680AE6002BFDCA /* Sources */,
+				F373E3631E680AE6002BFDCA /* Frameworks */,
+				F373E3641E680AE6002BFDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F373E3681E680AE6002BFDCA /* PBXTargetDependency */,
+			);
+			name = GOBANGTests;
+			productName = GOBANGTests;
+			productReference = F373E3661E680AE6002BFDCA /* GOBANGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F373E3701E680AE6002BFDCA /* GOBANGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F373E3801E680AE6002BFDCA /* Build configuration list for PBXNativeTarget "GOBANGUITests" */;
+			buildPhases = (
+				F373E36D1E680AE6002BFDCA /* Sources */,
+				F373E36E1E680AE6002BFDCA /* Frameworks */,
+				F373E36F1E680AE6002BFDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F373E3731E680AE6002BFDCA /* PBXTargetDependency */,
+			);
+			name = GOBANGUITests;
+			productName = GOBANGUITests;
+			productReference = F373E3711E680AE6002BFDCA /* GOBANGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F373E3451E680AE6002BFDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xingshao;
+				TargetAttributes = {
+					F373E34C1E680AE6002BFDCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F373E3651E680AE6002BFDCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F373E34C1E680AE6002BFDCA;
+					};
+					F373E3701E680AE6002BFDCA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F373E34C1E680AE6002BFDCA;
+					};
+				};
+			};
+			buildConfigurationList = F373E3481E680AE6002BFDCA /* Build configuration list for PBXProject "GOBANG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F373E3441E680AE6002BFDCA;
+			productRefGroup = F373E34E1E680AE6002BFDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F373E34C1E680AE6002BFDCA /* GOBANG */,
+				F373E3651E680AE6002BFDCA /* GOBANGTests */,
+				F373E3701E680AE6002BFDCA /* GOBANGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F373E34B1E680AE6002BFDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373E35D1E680AE6002BFDCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373E3641E680AE6002BFDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373E36F1E680AE6002BFDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F373E3491E680AE6002BFDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373E38B1E680DFC002BFDCA /* LXDBoard.m in Sources */,
+				F373E3881E680D65002BFDCA /* LXDBoardView.m in Sources */,
+				F373E3551E680AE6002BFDCA /* AppDelegate.m in Sources */,
+				F373E3851E680CC1002BFDCA /* LXDBoardViewController.m in Sources */,
+				F373E3521E680AE6002BFDCA /* main.m in Sources */,
+				F373E38E1E680E18002BFDCA /* LXDChess.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373E3621E680AE6002BFDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373E36B1E680AE6002BFDCA /* GOBANGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373E36D1E680AE6002BFDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373E3761E680AE6002BFDCA /* GOBANGUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F373E3681E680AE6002BFDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F373E34C1E680AE6002BFDCA /* GOBANG */;
+			targetProxy = F373E3671E680AE6002BFDCA /* PBXContainerItemProxy */;
+		};
+		F373E3731E680AE6002BFDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F373E34C1E680AE6002BFDCA /* GOBANG */;
+			targetProxy = F373E3721E680AE6002BFDCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F373E3781E680AE6002BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F373E3791E680AE6002BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F373E37B1E680AE6002BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GOBANG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingshao.GOBANG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F373E37C1E680AE6002BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GOBANG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingshao.GOBANG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F373E37E1E680AE6002BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GOBANGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingshao.GOBANGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOBANG.app/GOBANG";
+			};
+			name = Debug;
+		};
+		F373E37F1E680AE6002BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GOBANGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingshao.GOBANGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOBANG.app/GOBANG";
+			};
+			name = Release;
+		};
+		F373E3811E680AE6002BFDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GOBANGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingshao.GOBANGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GOBANG;
+			};
+			name = Debug;
+		};
+		F373E3821E680AE6002BFDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GOBANGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingshao.GOBANGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GOBANG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F373E3481E680AE6002BFDCA /* Build configuration list for PBXProject "GOBANG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373E3781E680AE6002BFDCA /* Debug */,
+				F373E3791E680AE6002BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F373E37A1E680AE6002BFDCA /* Build configuration list for PBXNativeTarget "GOBANG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373E37B1E680AE6002BFDCA /* Debug */,
+				F373E37C1E680AE6002BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F373E37D1E680AE6002BFDCA /* Build configuration list for PBXNativeTarget "GOBANGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373E37E1E680AE6002BFDCA /* Debug */,
+				F373E37F1E680AE6002BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F373E3801E680AE6002BFDCA /* Build configuration list for PBXNativeTarget "GOBANGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373E3811E680AE6002BFDCA /* Debug */,
+				F373E3821E680AE6002BFDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F373E3451E680AE6002BFDCA /* Project object */;
+}
